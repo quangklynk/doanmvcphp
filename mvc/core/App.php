@@ -1,8 +1,8 @@
 <?php
 class App{
 
-    protected $controller="Home";
-    protected $action="SayHi";
+    protected $controller="TaiKhoan";
+    protected $action="read";
     protected $params=[];
 
     function __construct(){

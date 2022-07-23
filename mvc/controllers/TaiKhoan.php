@@ -1,13 +1,12 @@
 <?php
 
 // http://localhost/live/Home/Show/1/2
-
-class Home extends Controller{
+class TaiKhoan extends Controller{
 
     // Must have SayHi()
-    function SayHi(){
-        $teo = $this->model("SinhVienModel");
-        echo $teo->GetSV();
+    function read(){
+        $user = $this->model("TaiKhoanModel");
+        echo $user->read();
 
     }
 
